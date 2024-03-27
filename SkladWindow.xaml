@@ -1,0 +1,65 @@
+﻿<Window x:Class="PRACTIC5.SkladWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRACTIC5"
+        mc:Ignorable="d"
+        Title="SkladWindow" Height="450" Width="800"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="8"/>
+            <ColumnDefinition Width="250"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="Computers" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Column="0 " SelectionChanged="Computers_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Visibility="Collapsed" Binding="{Binding ID_Computer}"/>
+                <DataGridTextColumn Header="Название компьютера" Binding="{Binding ComputerName}"/>
+                <DataGridTextColumn Header="Кол-во на складе" Binding="{Binding AmountWareHouse}"/>
+                <DataGridTextColumn Header="Цена в рублях" Binding="{Binding PriceRUB}"/>
+                <DataGridTextColumn Header="Название видеокарты" Binding="{Binding GPUname}"/>
+                <DataGridTextColumn Header="Название процессора" Binding="{Binding CPUname}"/>
+                <DataGridTextColumn Header="Цвет" Binding="{Binding ColourName}"/>
+                <DataGridTextColumn Header="Количество ГБ ОЗУ" Binding="{Binding AmountRAM}"/>
+                <DataGridTextColumn Header="Объем накопителя" Binding="{Binding AmountSSD}"/>
+                <DataGridTextColumn Header="Название БП" Binding="{Binding BPName}"/>
+                <DataGridTextColumn Header="Мощность БП" Binding="{Binding BPPower}"/>
+                <DataGridTextColumn Header="GPU ID" Visibility="Collapsed" Binding="{Binding GPU_ID}"/>
+                <DataGridTextColumn Header="CPU ID" Visibility="Collapsed" Binding="{Binding CPUSet_ID}"/>
+                <DataGridTextColumn Header="Colour ID" Visibility="Collapsed" Binding="{Binding Colour_ID}"/>
+                <DataGridTextColumn Header="Memory ID" Visibility="Collapsed" Binding="{Binding MemorySet_ID}"/>
+                <DataGridTextColumn Header="Power Supply ID" Visibility="Collapsed" Binding="{Binding BP_ID}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Column="2" x:Name="GridRight">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="   Данные для заполнения" Grid.Row="0" VerticalAlignment="Center" FontSize="20"></TextBlock>
+            <TextBox x:Name="Text1" Grid.Row="1" materialDesign:HintAssist.Hint="Название компьютера" materialDesign:HintAssist.HintOpacity=".26"></TextBox>
+            <TextBox x:Name="Text2" Grid.Row="2" materialDesign:HintAssist.Hint="Количество на складе" materialDesign:HintAssist.HintOpacity=".26" PreviewTextInput="Text_PreviewTextInput"></TextBox>
+            <TextBox x:Name="Text3" Grid.Row="3" materialDesign:HintAssist.Hint="Цена в рублях" materialDesign:HintAssist.HintOpacity=".26" PreviewTextInput="Text_PreviewTextInput"></TextBox>
+            <ComboBox x:Name="Text4" Grid.Row="4" materialDesign:HintAssist.Hint="Название видеокарты" materialDesign:HintAssist.HintOpacity=".26"></ComboBox>
+            <ComboBox x:Name="Text5" Grid.Row="5" materialDesign:HintAssist.Hint="Название процесссора" materialDesign:HintAssist.HintOpacity=".26"></ComboBox>
+            <ComboBox x:Name="Text6" Grid.Row="6" materialDesign:HintAssist.Hint="Название цвета" materialDesign:HintAssist.HintOpacity=".26"></ComboBox>
+            <ComboBox x:Name="Text7" Grid.Row="7" materialDesign:HintAssist.Hint="Комплект памяти" materialDesign:HintAssist.HintOpacity=".26"></ComboBox>
+            <ComboBox x:Name="Text8" Grid.Row="8" materialDesign:HintAssist.Hint="Блок питания" materialDesign:HintAssist.HintOpacity=".26"></ComboBox>
+            <Button Content="Добавление" Grid.Row="9" x:Name="CREATE" ToolTip="Resource name: MaterialDesignPaperSecondaryLightButton" Click="CREATE_Click" />
+            <Button Content="Изменение" Grid.Row="10" x:Name="UPDATE" ToolTip="Resource name: MaterialDesignPaperSecondaryLightButton" Click="UPDATE_Click"/>
+            <Button Content="Удаление" Grid.Row="11" x:Name="DELETE" ToolTip="Resource name: MaterialDesignPaperSecondaryLightButton" Click="DELETE_Click"/>
+        </Grid>
+    </Grid>
+</Window>

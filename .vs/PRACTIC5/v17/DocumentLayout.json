@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|c:\\users\\\u044F\u0440\\source\\repos\\practic5\\practic5\\practic5\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|solutionrelative:practic5\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|c:\\users\\\u044F\u0440\\source\\repos\\practic5\\practic5\\practic5\\pcshopdataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|solutionrelative:practic5\\pcshopdataset1.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\practic5\\cpusetpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|solutionrelative:practic5\\cpusetpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\practic5\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A770C9C8-E17F-4875-B270-F1D3C491CF10}|PRACTIC5\\PRACTIC5.csproj|solutionrelative:practic5\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PCShopDataSet1.xsd",
+              "DocumentMoniker": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\PCShopDataSet1.xsd",
+              "RelativeDocumentMoniker": "PRACTIC5\\PCShopDataSet1.xsd",
+              "ToolTip": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\PCShopDataSet1.xsd",
+              "RelativeToolTip": "PRACTIC5\\PCShopDataSet1.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-03-23T11:52:26.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PRACTIC5\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "PRACTIC5\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T11:39:53.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CPUSetPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\CPUSetPage.xaml",
+              "RelativeDocumentMoniker": "PRACTIC5\\CPUSetPage.xaml",
+              "ToolTip": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\CPUSetPage.xaml",
+              "RelativeToolTip": "PRACTIC5\\CPUSetPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-23T11:39:53.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "PRACTIC5\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\\u042F\u0440\\source\\repos\\PRACTIC5\\PRACTIC5\\PRACTIC5\\AdminWindow.xaml",
+              "RelativeToolTip": "PRACTIC5\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-23T11:39:54.027Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

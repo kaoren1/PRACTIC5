@@ -1,0 +1,20 @@
+﻿<Page x:Class="PRACTIC5.GPUPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PRACTIC5"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GPUPage">
+
+    <Grid>
+        <DataGrid x:Name="GPU" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="GPU_SelectionChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер" Binding="{Binding ID_GPU}" Visibility="Collapsed"></DataGridTextColumn>
+                <DataGridTextColumn Header="Название видеокарты" Binding="{Binding GPUname}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Потребление видеокарты" Binding="{Binding GPUpower}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
